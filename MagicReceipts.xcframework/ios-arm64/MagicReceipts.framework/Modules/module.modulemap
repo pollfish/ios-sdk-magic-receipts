@@ -1,0 +1,11 @@
+framework module MagicReceipts {
+  umbrella header "MagicReceipts.h"
+
+  export *
+  module * { export * }
+}
+
+module MagicReceipts.Swift {
+  header "MagicReceipts-Swift.h"
+  requires objc
+}

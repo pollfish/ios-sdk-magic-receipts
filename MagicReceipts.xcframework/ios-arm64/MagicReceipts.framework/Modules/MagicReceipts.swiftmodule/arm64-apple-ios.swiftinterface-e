@@ -1,0 +1,81 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MagicReceipts
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AdSupport
+import CommonCrypto
+import CryptoKit
+import Foundation
+@_exported import MagicReceipts
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+@objc public class Params : ObjectiveC.NSObject {
+  final public let apiKey: Swift.String
+  public var incentiveMode: Swift.Bool {
+    get
+  }
+  public var clickId: Swift.String? {
+    get
+  }
+  public var userId: Swift.String? {
+    get
+  }
+  @objc public init(_ apiKey: Swift.String)
+  @discardableResult
+  @objc public func incentiveMode(_ incentiveMode: Swift.Bool) -> MagicReceipts.Params
+  @discardableResult
+  @objc public func clickId(_ clickId: Swift.String) -> MagicReceipts.Params
+  @discardableResult
+  @objc public func userId(_ userId: Swift.String) -> MagicReceipts.Params
+  @objc deinit
+}
+@objc public protocol MagicReceiptsDelegate {
+  @objc optional func onWallDidShow()
+  @objc optional func onWallDidFailToLoad(error: MagicReceipts.MagicReceiptsLoadError)
+  @objc optional func onWallDidLoad()
+  @objc optional func onWallDidHide()
+  @objc optional func onWallDidFaildToShow(error: MagicReceipts.MagicReceiptsShowError)
+}
+@_hasMissingDesignatedInitializers @objc public class MagicReceipts : ObjectiveC.NSObject {
+  @objc deinit
+}
+extension MagicReceipts.MagicReceipts {
+  @objc public static func initialize(with params: MagicReceipts.Params, delegate: MagicReceipts.MagicReceiptsDelegate? = nil)
+  @objc public static func show()
+  @objc public static func hide()
+  @objc public static func isReady() -> Swift.Bool
+}
+@objc public enum MagicReceiptsShowError : Swift.Int {
+  case `internal`
+  case notLoaded
+  case timeout
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum MagicReceiptsLoadError : Swift.Int {
+  case emptyApiKey
+  case wrongApiKey
+  case undefinedUser
+  case `internal`
+  case timeout
+  case emptyUserId
+  case noIdfaPermission
+  case disabled
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension MagicReceipts.MagicReceiptsShowError : Swift.Equatable {}
+extension MagicReceipts.MagicReceiptsShowError : Swift.Hashable {}
+extension MagicReceipts.MagicReceiptsShowError : Swift.RawRepresentable {}
+extension MagicReceipts.MagicReceiptsLoadError : Swift.Equatable {}
+extension MagicReceipts.MagicReceiptsLoadError : Swift.Hashable {}
+extension MagicReceipts.MagicReceiptsLoadError : Swift.RawRepresentable {}
