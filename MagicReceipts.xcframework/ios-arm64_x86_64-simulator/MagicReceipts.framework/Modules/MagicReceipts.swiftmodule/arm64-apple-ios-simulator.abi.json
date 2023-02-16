@@ -2141,14 +2141,14 @@
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 249,
+      "offset": 412,
       "length": 26,
       "value": "\"https:\/\/wss.pollfish.com\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 310,
+      "offset": 473,
       "length": 24,
       "value": "\"http:\/\/avemapledev.com\""
     },

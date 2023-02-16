@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ohW3NbHy0qojrRrUWG9tVANqvNM=
+		mMEjgt5IW4vfJqMgTsC2mewfG3k=
 		</data>
 		<key>Headers/MagicReceipts-Swift.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		spyvO50a5ZxwiNEMLIlrkiWNkgU=
+		f4QSARWXoqJkW3yg1G0sw2msoGU=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/BtCo+w44jT+sVgzH45LjqVip6k=
+		jnqN7bVnhrc5wR5a2QVaeg/7Xgc=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		spyvO50a5ZxwiNEMLIlrkiWNkgU=
+		f4QSARWXoqJkW3yg1G0sw2msoGU=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Yp69icj7VUzRmggwRSdOqUX3/QQ=
+		Pa/uL4y6PKNTm4/JnMotulPKgSM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bckd8rfrKE+XZ+vI5lHiU1CrrospJr2F/lhRvhRm2u4=
+			epd9LGqd9atZGCo8OWPmTriPfxGYPPgHbSkA0YJS3AU=
 			</data>
 		</dict>
 		<key>Headers/MagicReceipts-Swift.h</key>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8zlMuSTDjJTZj/1DbgjRaSFM2UkhN7Cg/WX35zQIxrk=
+			Hxa5s+XEFMUpAy5astMbIBpuxVAXyLqKVne/H2MFlrE=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -120,14 +120,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G9UEbGiVEHLfGvofyE6uggGc3/Zw71q6EVz30Pg52Ow=
+			oBL35vgZsgW9Og9B7vBlZOF9HLbZzdW+Y9lB/g8jn5k=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8zlMuSTDjJTZj/1DbgjRaSFM2UkhN7Cg/WX35zQIxrk=
+			Hxa5s+XEFMUpAy5astMbIBpuxVAXyLqKVne/H2MFlrE=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YQxND8YrRgN2FTFCYSAYFPzrbArQxADplF+DVxGuaRM=
+			fIg0RVsvB3ykvg1oRWWjakWsgcxbM9GJQo4Gfj7HuQM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

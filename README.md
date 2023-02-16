@@ -86,7 +86,7 @@ Once you're finished, Xcode will begin resolving your package dependencies and d
 
 ### **Manual integration**
 
-Download Magic Receipts iOS SDK from the website and then in Xcode, select the target that you want to use and in the Build Phases tab expand the Link Binary With Libraries section. Press the + button, and press Add other… In the dialog box that appears, go to the Magic Receipts framework’s location and select it.  
+Clone the Magic Receipts iOS SDK repository and then in Xcode, select the target that you want to use and in the Build Phases tab expand the Link Binary With Libraries section. Press the + button, and press Add other… In the dialog box that appears, locate the MagicReceipts.xcframework and select it.  
 
 The project will appear at the top of the Link Binary With Libraries section and will also be added to your project files (left-hand pane).
 

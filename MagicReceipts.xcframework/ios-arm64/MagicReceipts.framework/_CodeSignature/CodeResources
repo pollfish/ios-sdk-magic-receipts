@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ohW3NbHy0qojrRrUWG9tVANqvNM=
+		mMEjgt5IW4vfJqMgTsC2mewfG3k=
 		</data>
 		<key>Headers/MagicReceipts-Swift.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		spyvO50a5ZxwiNEMLIlrkiWNkgU=
+		f4QSARWXoqJkW3yg1G0sw2msoGU=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		sKqeBxs49oSz1yq2HV2hnCjGbZs=
+		oJ5O6ZmKalIfII/OLKOhoEth61c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bckd8rfrKE+XZ+vI5lHiU1CrrospJr2F/lhRvhRm2u4=
+			epd9LGqd9atZGCo8OWPmTriPfxGYPPgHbSkA0YJS3AU=
 			</data>
 		</dict>
 		<key>Headers/MagicReceipts-Swift.h</key>
@@ -72,7 +72,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8zlMuSTDjJTZj/1DbgjRaSFM2UkhN7Cg/WX35zQIxrk=
+			Hxa5s+XEFMUpAy5astMbIBpuxVAXyLqKVne/H2MFlrE=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UhuvuWVb1AgcZXt3SE8Y0mkXNndSFiIUQM0FOzVmIaw=
+			P5dHcthLow+bALPw7b93RMptS1x3UXr7h7171+UjF88=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
