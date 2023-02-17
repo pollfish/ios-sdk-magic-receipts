@@ -8,12 +8,34 @@
 import UIKit
 import MagicReceipts
 
-class ViewController: UIViewController, MagicReceiptsDelegate {
+class ViewController: UIViewController {
     
     @IBOutlet weak var hideButton: UIButton!
     @IBOutlet weak var showButton: UIButton!
     @IBOutlet weak var incentiveModeSwitch: UISwitch!
-
+    @IBOutlet weak var headerBackgroundView: UIView!
+    @IBOutlet weak var headerBackgroundCircleView: UIView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        headerBackgroundCircleView.addGradientBackground(
+            start: #colorLiteral(red: 0.682, green: 0.231, blue: 0.922, alpha: 1).cgColor,
+            end: #colorLiteral(red: 0.384, green: 0.369, blue: 1.0, alpha: 1).cgColor,
+            startPoint: CGPoint(x: 0, y: 1),
+            endPoint: CGPoint(x: 1, y: 0)
+        )
+        headerBackgroundView.addGradientBackground(
+            start: #colorLiteral(red: 0.227, green: 0.180, blue: 0.498, alpha: 1).cgColor,
+            end: #colorLiteral(red: 0.055, green: 0.145, blue: 0.459, alpha: 1).cgColor,
+            startPoint: CGPoint(x: 0.5, y: 1),
+            endPoint: CGPoint(x: 0.5, y: 0))
+    }
+    
+    override func viewDidLayoutSubviews() {
+        headerBackgroundCircleView.layer.cornerRadius = headerBackgroundCircleView.layer.bounds.width / 2
+    }
+    
     func disableButtons() {
         showButton.isEnabled = false
         hideButton.isEnabled = false
@@ -25,7 +47,9 @@ class ViewController: UIViewController, MagicReceiptsDelegate {
     }
     
     @IBAction func onInitializeClick(_ sender: Any) {
-        MagicReceipts.initialize(with: Params("10").userId("pollfish-fotis").incentiveMode(incentiveModeSwitch.isOn), delegate: self)
+        MagicReceipts.initialize(with: Params("API_KEY")
+            .userId("YOUR_USER_ID")
+            .incentiveMode(incentiveModeSwitch.isOn), delegate: self)
         disableButtons()
     }
     
@@ -41,6 +65,9 @@ class ViewController: UIViewController, MagicReceiptsDelegate {
         MagicReceipts.hide()
     }
     
+}
+
+extension ViewController: MagicReceiptsDelegate {
     func onWallDidLoad() {
         showToast(message: "Magic Receipts Wall loaded")
         enableButtons()
@@ -61,71 +88,4 @@ class ViewController: UIViewController, MagicReceiptsDelegate {
     func onWallDidHide() {
         showToast(message: "Magic Receipts Wall closed")
     }
-    
-}
-
-extension UIViewController {
-
-    private var keyWindow: UIWindow? {
-        get {
-            if #available(iOS 15, *) {
-                return UIApplication
-                    .shared
-                    .connectedScenes
-                    .compactMap { ($0 as? UIWindowScene)?.keyWindow }
-                    .first
-            } else {
-                return UIApplication
-                    .shared
-                    .connectedScenes
-                    .flatMap { ($0 as? UIWindowScene)?.windows ?? [] }
-                    .first { $0.isKeyWindow }
-            }
-        }
-    }
-    
-    func showToast(message: String, seconds: Int = 3) {
-        guard let window = keyWindow else {
-            return
-        }
-        if let toast = window.subviews.first(where: { $0 is UILabel && $0.tag == -1001 }) {
-            toast.removeFromSuperview()
-        }
-        
-        let toastView = UILabel()
-        toastView.backgroundColor = UIColor.black.withAlphaComponent(0.7)
-        toastView.textColor = UIColor.white
-        toastView.textAlignment = .center
-        toastView.font = UIFont(name: "Font-name", size: 17)
-        toastView.layer.cornerRadius = 25
-        toastView.text = message
-        toastView.numberOfLines = 0
-        toastView.alpha = 0
-        toastView.translatesAutoresizingMaskIntoConstraints = false
-        toastView.tag = -1001
-        
-        window.addSubview(toastView)
-        
-        let horizontalCenterContraint: NSLayoutConstraint = NSLayoutConstraint(item: toastView, attribute: .centerX, relatedBy: .equal, toItem: window, attribute: .centerX, multiplier: 1, constant: 0)
-        
-        let widthContraint: NSLayoutConstraint = NSLayoutConstraint(item: toastView, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1, constant: (self.view.frame.size.width - 25) )
-        
-        let verticalContraint: [NSLayoutConstraint] = NSLayoutConstraint.constraints(withVisualFormat: "V:|-(>=200)-[toastView(==50)]-68-|", options: [.alignAllCenterX, .alignAllCenterY], metrics: nil, views: ["toastView": toastView])
-        
-        NSLayoutConstraint.activate([horizontalCenterContraint, widthContraint])
-        NSLayoutConstraint.activate(verticalContraint)
-        
-        UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseIn, animations: {
-            toastView.alpha = 1
-        }, completion: nil)
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(seconds), execute: {
-            UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseIn, animations: {
-                toastView.alpha = 0
-            }, completion: { finished in
-                toastView.removeFromSuperview()
-            })
-        })
-    }
-    
 }

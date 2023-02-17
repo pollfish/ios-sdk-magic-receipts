@@ -13,6 +13,8 @@
 		806CF069299E6EE200EFFCB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806CF067299E6EE200EFFCB5 /* Main.storyboard */; };
 		806CF06B299E6EE300EFFCB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806CF06A299E6EE300EFFCB5 /* Assets.xcassets */; };
 		806CF06E299E6EE300EFFCB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806CF06C299E6EE300EFFCB5 /* LaunchScreen.storyboard */; };
+		80E1B6CD299FB49F000D4ECF /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E1B6CC299FB49F000D4ECF /* UIView+Gradient.swift */; };
+		80E1B6CF299FB4E0000D4ECF /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E1B6CE299FB4E0000D4ECF /* UIViewController+Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		806CF06A299E6EE300EFFCB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806CF06D299E6EE300EFFCB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		806CF06F299E6EE300EFFCB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E1B6CC299FB49F000D4ECF /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
+		80E1B6CE299FB4E0000D4ECF /* UIViewController+Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Toast.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +41,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		734233F0F2FF7E8744739C77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		806CF055299E6EE200EFFCB5 = {
 			isa = PBXGroup;
 			children = (
 				806CF060299E6EE200EFFCB5 /* Sample */,
 				806CF05F299E6EE200EFFCB5 /* Products */,
+				734233F0F2FF7E8744739C77 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +75,8 @@
 				806CF06A299E6EE300EFFCB5 /* Assets.xcassets */,
 				806CF06C299E6EE300EFFCB5 /* LaunchScreen.storyboard */,
 				806CF06F299E6EE300EFFCB5 /* Info.plist */,
+				80E1B6CC299FB49F000D4ECF /* UIView+Gradient.swift */,
+				80E1B6CE299FB4E0000D4ECF /* UIViewController+Toast.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -139,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				806CF066299E6EE200EFFCB5 /* ViewController.swift in Sources */,
+				80E1B6CF299FB4E0000D4ECF /* UIViewController+Toast.swift in Sources */,
 				806CF062299E6EE200EFFCB5 /* AppDelegate.swift in Sources */,
+				80E1B6CD299FB49F000D4ECF /* UIView+Gradient.swift in Sources */,
 				806CF064299E6EE200EFFCB5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
