@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		mMEjgt5IW4vfJqMgTsC2mewfG3k=
+		78lWfMxIxEMu4M8TANoDP2sZHHE=
 		</data>
 		<key>Headers/MagicReceipts-Swift.h</key>
 		<data>
-		JL2R976PopFllMYpO4X4oB8w9Wo=
+		i7aDiY0XuB0BsjJDxd/WfpTiT1E=
 		</data>
 		<key>Headers/MagicReceipts.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+n9O1hcCHUE7jhIzl+POeqTO8iA=
+		ILBJFFphaHxkmlr7XrrjKgUDpHA=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		f4QSARWXoqJkW3yg1G0sw2msoGU=
+		SL2O2ZUTouB2biR/ZzFX/Y1ug1M=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rix3CwpZNhz3tDDhhqeK43yzhRA=
+		kpfWH2FppHZaYPc7TBlnaa5E9P0=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7Q78bcFp3WbVA1LO6ureCKYf2nM=
+		K+c6Pt2v2Q3Q2cdVai2DakAhRUU=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rix3CwpZNhz3tDDhhqeK43yzhRA=
+		kpfWH2FppHZaYPc7TBlnaa5E9P0=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jnqN7bVnhrc5wR5a2QVaeg/7Xgc=
+		ME9lLIZngHhMZTOfp+v7rwbUz3E=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		f4QSARWXoqJkW3yg1G0sw2msoGU=
+		SL2O2ZUTouB2biR/ZzFX/Y1ug1M=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DN3fDinfqPERALSHLvDLTO+nTGw=
+		dB8gMxwHys54YLoqRR2WVuSTXiw=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kVEaDCLbmLDkWSt/GamcBraO/SY=
+		haUxZr/uH4nGpBYxKoTDS5RXoKA=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DN3fDinfqPERALSHLvDLTO+nTGw=
+		dB8gMxwHys54YLoqRR2WVuSTXiw=
 		</data>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Pa/uL4y6PKNTm4/JnMotulPKgSM=
+		/Ma8RLfZ9azcp5a7/om8VpXZBqA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			epd9LGqd9atZGCo8OWPmTriPfxGYPPgHbSkA0YJS3AU=
+			Ov+2Laajk08qeG/ObraN4ymvSFb1FZ/MC05Y3XacNF0=
 			</data>
 		</dict>
 		<key>Headers/MagicReceipts-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dHcXIEGKJIvXePf89xbGHTQERYY8ackSj5OXWlZX5cE=
+			CG8fv4CarCLbJVthLNrhQ1jATjdVGuh9KOWpLC6GIoY=
 			</data>
 		</dict>
 		<key>Headers/MagicReceipts.h</key>
@@ -92,70 +92,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hxa5s+XEFMUpAy5astMbIBpuxVAXyLqKVne/H2MFlrE=
+			Prv7B7+2pe4+OiAVGNpTdA8/Qkueal8W+Rhp/FhYSfQ=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L5LzyuG/YWp85rD7WyivaOynRMw2HfFlQPeS6AKeJdA=
+			A+bEQbsb2Cfq2pv7zzV1z2Rg9D+YVGNl8FQ1RnXk+/8=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			12GREctAgWI06WWyYkmZTmkrr/sDA1UAfgWDuCxQ5Z8=
+			tm/Iv0+Ymgb258t1chmHKm7BL+Vb1Vo+xmm2eWiiBtE=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L5LzyuG/YWp85rD7WyivaOynRMw2HfFlQPeS6AKeJdA=
+			A+bEQbsb2Cfq2pv7zzV1z2Rg9D+YVGNl8FQ1RnXk+/8=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oBL35vgZsgW9Og9B7vBlZOF9HLbZzdW+Y9lB/g8jn5k=
+			P+2o9n3g6wHQxs6DhbuuIIH/3g4tYC+o0rQByxo3Fl8=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hxa5s+XEFMUpAy5astMbIBpuxVAXyLqKVne/H2MFlrE=
+			Prv7B7+2pe4+OiAVGNpTdA8/Qkueal8W+Rhp/FhYSfQ=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dV/4DZUDWpQbhBBJt7MVbATNitcvlXq6XR72pcM706A=
+			9PtxeU3oXGTopZwp1tbKoOljZkfhoasNXV+mMJRJjgk=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yKOA1mwgqsFLj84YER6dhCS9j7UfZ8bVW1ezGp8SkjA=
+			GzU/3XoFLwQlPaiT6WuVt0IZPjuuRSmBLBNpGGuFVh8=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dV/4DZUDWpQbhBBJt7MVbATNitcvlXq6XR72pcM706A=
+			9PtxeU3oXGTopZwp1tbKoOljZkfhoasNXV+mMJRJjgk=
 			</data>
 		</dict>
 		<key>Modules/MagicReceipts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fIg0RVsvB3ykvg1oRWWjakWsgcxbM9GJQo4Gfj7HuQM=
+			cy2uCeDmovd/DHxWvAeKwkZ/eKts7VMRB9i4B1ag8cs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -317,6 +317,7 @@ SWIFT_CLASS("_TtC13MagicReceipts6Params")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -640,6 +641,7 @@ SWIFT_CLASS("_TtC13MagicReceipts6Params")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 

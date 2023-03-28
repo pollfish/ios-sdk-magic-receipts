@@ -1788,6 +1788,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MagicReceipts",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1868,7 +1878,119 @@
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 905,
+      "offset": 947,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1000,
+      "length": 5,
+      "value": "0.933"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1014,
+      "length": 5,
+      "value": "0.945"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1027,
+      "length": 5,
+      "value": "0.962"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1041,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1177,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1183,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1220,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1269,
+      "length": 5,
+      "value": "0.933"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1283,
+      "length": 5,
+      "value": "0.945"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1296,
+      "length": 5,
+      "value": "0.962"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1310,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1366,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1496,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1572,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1792,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Wall\/MagicReceiptsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2269,
       "length": 5,
       "value": "false"
     },
@@ -1931,6 +2053,13 @@
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Api\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
+      "offset": 472,
+      "length": 17,
+      "value": "\"rounding_method\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Api\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
       "offset": 199,
       "length": 13,
       "value": "\"reward_name\""
@@ -1976,6 +2105,13 @@
       "offset": 436,
       "length": 9,
       "value": "\"wall_id\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Api\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 17,
+      "value": "\"rounding_method\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Web\/MagicReceiptsWebView.swift",
@@ -2141,72 +2277,58 @@
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 412,
+      "offset": 556,
       "length": 26,
       "value": "\"https:\/\/wss.pollfish.com\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 473,
-      "length": 24,
-      "value": "\"http:\/\/avemapledev.com\""
+      "offset": 617,
+      "length": 26,
+      "value": "\"https:\/\/api.avemaple.com\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 554,
+      "offset": 700,
       "length": 23,
       "value": "\"\/api\/v2\/magicreceipts\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 666,
+      "offset": 812,
       "length": 24,
       "value": "\"magicReceiptsIndicator\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 717,
+      "offset": 863,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 768,
+      "offset": 914,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 801,
+      "offset": 947,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 880,
+      "offset": 1026,
       "length": 19,
       "value": "\"magicReceiptsWall\""
-    },
-    {
-      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Indicator\/MagicReceiptsIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 1385,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Indicator\/MagicReceiptsIndicator.swift",
-      "kind": "FloatLiteral",
-      "offset": 1752,
-      "length": 3,
-      "value": "0.0"
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/magic-receipts-ios\/MagicReceipts\/Source\/Internal\/Indicator\/MagicReceiptsIndicator.swift",

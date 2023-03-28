@@ -3,7 +3,7 @@
 # Prerequisites
 
 * Use XCode 12 or higher
-* Target iOS 11.0 or higher
+* Target iOS 13.0 or higher
 
 <br/>
 
@@ -52,7 +52,7 @@ You can use one the following methods do download and integrate the Magic Receip
 
 <br/>
 
-### **CocoaPods** (Coming soon)
+### **CocoaPods**
 
 Add a Podfile with Magic Receipts framework as a pod reference:
 
@@ -66,7 +66,7 @@ Run `pod install` on the command line to install the Magic Receipts pod.
 
 <br/>
 
-### **Swift Package Manager** (Coming soon)
+### **Swift Package Manager**
 
 In Xcode, install the Magic Receipts iOS SDK Swift Package by navigating to File > Add Packages....
 
@@ -92,9 +92,9 @@ The project will appear at the top of the Link Binary With Libraries section and
 
 Next, add the following Swift frameworks (if you don'y already have them) in your project
 
-- AdSupport.framework  
-- CryptoKit (iOS 12 or lower)
-- CommonCrypto (iOS 13 or higher)
+- AdSupport  
+- CryptoKit
+- CommonCrypto
 
 <br/>
 

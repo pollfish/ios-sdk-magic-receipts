@@ -317,6 +317,7 @@ SWIFT_CLASS("_TtC13MagicReceipts6Params")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
