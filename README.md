@@ -3,7 +3,7 @@
 # Prerequisites
 
 * Use XCode 12 or higher
-* Target iOS 13.0 or higher
+* Target iOS 11.0 or higher
 
 <br/>
 
@@ -92,9 +92,7 @@ The project will appear at the top of the Link Binary With Libraries section and
 
 Next, add the following Swift frameworks (if you don'y already have them) in your project
 
-- AdSupport  
-- CryptoKit
-- CommonCrypto
+- AdSupport
 
 <br/>
 
@@ -157,6 +155,7 @@ No | Description
 6.1 | **`.userId(String)`** <br/> A unique id to identify the user.
 6.2 | **`.incentiveMode(Bool)`** <br/> Control the visibility of the Magic Receipts indicator.
 6.3 | **`.clickId(String)`** <br/> A pass throught parameter that will be passed back through server-to-server [postback](#postbacks) to identify the click.
+6.4 | **`.testMode(Bool)`** <br/> Set the SDK to testMode
 
 <br/>
 
@@ -237,7 +236,7 @@ Initializes Magic Receipts SDK in incentivised mode. This means that Magic Recei
 ```objc
 Params *params = [[Params alloc] init:@"API_KEY"];
 
-[params rewardMode:true];
+[params incentiveMode:true];
 ```
 
 <span style="text-decoration: underline">Swift:</span>
@@ -268,6 +267,29 @@ Params *params = [[Params alloc] init:@"API_KEY"];
 ```swift
 let params = Params("API_KEY")
     .clickId("CLICK_ID")
+```
+
+<br/>
+
+### 6.4. **`.testMode(Bool)`**
+
+Sets the SDK to test mode. For testing purposes please contact your account manager to provide further instructions.
+
+<br/>
+
+<span style="text-decoration: underline">Objective-C:</span>
+
+```objc
+Params *params = [[Params alloc] init:@"API_KEY"];
+
+[params testMode:true];
+```
+
+<span style="text-decoration: underline">Swift:</span>
+
+```swift
+let params = Params("API_KEY")
+    .testMode(true)
 ```
 
 <br/>

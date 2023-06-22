@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var hideButton: UIButton!
     @IBOutlet weak var showButton: UIButton!
     @IBOutlet weak var incentiveModeSwitch: UISwitch!
+    @IBOutlet weak var testModeSwitch: UISwitch!
     @IBOutlet weak var headerBackgroundView: UIView!
     @IBOutlet weak var headerBackgroundCircleView: UIView!
     
@@ -49,6 +50,7 @@ class ViewController: UIViewController {
     @IBAction func onInitializeClick(_ sender: Any) {
         MagicReceipts.initialize(with: Params("API_KEY")
             .userId("YOUR_USER_ID")
+            .testMode(testModeSwitch.isOn)
             .incentiveMode(incentiveModeSwitch.isOn), delegate: self)
         disableButtons()
     }

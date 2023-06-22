@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,6 +27,20 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="r7q-KZ-9fY">
+                                        <rect key="frame" x="280" y="0.0" width="51" height="31"/>
+                                    </switch>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ovE-K7-vad">
+                                <rect key="frame" x="32" y="587" width="329" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDt-xE-VWv">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="T3U-fh-71l">
                                         <rect key="frame" x="280" y="0.0" width="51" height="31"/>
                                     </switch>
                                 </subviews>
@@ -103,11 +118,14 @@
                             <constraint firstItem="bud-xb-XDN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VcX-nu-UZT"/>
                             <constraint firstItem="rgC-56-Gcn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="X3B-Zg-U1c"/>
                             <constraint firstItem="rgC-56-Gcn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aFF-7Z-iqG"/>
+                            <constraint firstItem="ovE-K7-vad" firstAttribute="top" secondItem="Kws-29-mKz" secondAttribute="bottom" constant="8" id="eNH-iv-FLd"/>
+                            <constraint firstItem="ovE-K7-vad" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="eYa-ib-Uec"/>
                             <constraint firstItem="Kws-29-mKz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="32" id="hKY-mn-Unl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rgC-56-Gcn" secondAttribute="trailing" id="kGF-Kd-6ok"/>
                             <constraint firstItem="JRj-9k-kWA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kmV-T2-pcd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mgj-iz-uYm" secondAttribute="trailing" constant="32" id="mr1-At-MQK"/>
                             <constraint firstItem="bud-xb-XDN" firstAttribute="top" secondItem="Owk-Sv-Edm" secondAttribute="bottom" constant="16" id="n17-q3-eAD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ovE-K7-vad" secondAttribute="trailing" constant="32" id="rHh-Jj-fgd"/>
                             <constraint firstItem="SrD-cn-XBb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="16" id="scc-cg-ZPd"/>
                             <constraint firstItem="Owk-Sv-Edm" firstAttribute="top" secondItem="Mgj-iz-uYm" secondAttribute="bottom" constant="8" id="wVc-pq-2lF"/>
                             <constraint firstItem="Mgj-iz-uYm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="32" id="xq2-yX-FVG"/>
@@ -119,6 +137,7 @@
                         <outlet property="hideButton" destination="C2d-QJ-gwJ" id="azB-oJ-pBY"/>
                         <outlet property="incentiveModeSwitch" destination="r7q-KZ-9fY" id="8Qe-Y1-lQL"/>
                         <outlet property="showButton" destination="r9A-NF-Xf4" id="yru-AR-WOB"/>
+                        <outlet property="testModeSwitch" destination="T3U-fh-71l" id="8Li-Gq-D2u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

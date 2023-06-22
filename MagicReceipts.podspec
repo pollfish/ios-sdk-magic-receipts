@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name = 'MagicReceipts'
-s.version = '1.0.0'
-s.platform = :ios, '13.0'
+s.version = '1.0.1'
+s.platform = :ios, '11.0'
 s.license = { :type => 'Commercial', :text => 'See https://www.pollfish.com/terms/publisher' }
 s.summary = 'Magic Receipts iOS Monetization SDK'
 s.description = 'Magic Receipts provides a new interactive monetization format to app developers'
